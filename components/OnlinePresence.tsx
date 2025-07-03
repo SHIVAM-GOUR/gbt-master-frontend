@@ -33,13 +33,13 @@ export default function OnlinePresence() {
               "Are you still relying on paper or outdated systems?",
             ].map((point, index) => (
               <div key={index} className="flex items-start space-x-3 bg-white shadow rounded-lg p-4 max-w-lg">
-                <div className="mt-1 w-4 h-4 bg-[#54BD95] rounded-full flex-shrink-0" />
+                <div className="mt-1 w-4 h-4 bg-green-10 rounded-full flex-shrink-0" />
                 <p className="text-gray-700">{point}</p>
               </div>
             ))}
 
             
-            <div className="bg-[#54BD95] text-white px-6 py-4 rounded-md w-fit font-medium shadow-md mt-4">
+            <div className="bg-green-10 text-white px-6 py-4 rounded-md w-fit font-medium shadow-md mt-4">
               If any of these points concern you,<br />
               it&apos;s time to let us help you establish a strong online presence.
             </div>

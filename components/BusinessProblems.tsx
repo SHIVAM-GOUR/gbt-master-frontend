@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import laptop from "../public/icons/laptop.svg";
 import greenVector from "../public/icons/greenVector.svg";
+import warning from "../public/icons/warning.svg";
 
 const problems = [
   "Loosing Customers and potential customers",
@@ -13,10 +14,10 @@ const problems = [
 
 export default function BusinessProblems() {
   return (
-    <section className="bg-gradient-to-l from-white to-green-100 py-8 px-6 md:px-20 flex flex-col md:flex-row items-center justify-between">
-     
+    <section className="relative bg-black py-8 px-6 md:px-32 flex flex-col md:flex-row items-center justify-between">
+       <div className="absolute w-[600px] h-[600px] bg-[#00C2E9] rounded-full blur-[100px] opacity-20 top-20  z-0"></div>
       <div className="mb-12 md:mb-0">
-        <h2 className="text-5xl font-bold text-gray-900 ">
+        <h2 className="text-5xl font-bold text-white">
           Problems your <br /> <span>Business facing</span>
         </h2>
          <div className="mt-2">
@@ -24,8 +25,8 @@ export default function BusinessProblems() {
       </div>
         <ul className=" mt-12 space-y-4">
           {problems.map((problem, index) => (
-            <li key={index} className="flex items-start gap-3 text-lg">
-              <span className="text-red-500 text-xl">❗</span>
+            <li key={index} className="flex items-start gap-3 text-lg text-white">
+            <Image src={warning} alt="warning" className="" />
               {problem}
             </li>
           ))}

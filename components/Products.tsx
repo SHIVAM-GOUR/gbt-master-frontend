@@ -11,7 +11,7 @@ const ProductSection: React.FC = () => {
      
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bold text-gray-900">Our Products</h2>
-        <div className="w-24 h-1 bg-[#54BD95] mx-auto mt-2 mb-6" />
+        <div className="w-24 h-1 bg-green-10 mx-auto mt-2 mb-6" />
         <p className="text-gray-600">
           Choose the perfect solution for your industry needs
         </p>
@@ -24,7 +24,7 @@ const ProductSection: React.FC = () => {
             onClick={() => setActiveTab("schools")}
             className={`px-6 py-2 rounded-full text-sm font-medium transition ${
               activeTab === "schools"
-                ? "bg-[#54BD95] text-white"
+                ? "bg-green-10 text-white"
                 : "text-gray-600"
             }`}
           >
@@ -55,35 +55,35 @@ const ProductSection: React.FC = () => {
             </p>
             <ul className="space-y-4 text-gray-700 text-sm">
               <li className="flex items-start gap-3">
-                <div className="mt-1 w-4 h-4 bg-[#54BD95] rounded-full flex-shrink-0" />
+                <div className="mt-1 w-4 h-4 bg-green-10 rounded-full flex-shrink-0" />
                 <p>
                   <strong>Student & staff management</strong> — Complete
                   database for all school members
                 </p>
               </li>
               <li className="flex items-start gap-3">
-                <div className="mt-1 w-4 h-4 bg-[#54BD95] rounded-full flex-shrink-0" />
+                <div className="mt-1 w-4 h-4 bg-green-10 rounded-full flex-shrink-0" />
                 <p>
                   <strong>Online fee collection</strong> — Secure payment
                   gateway integration
                 </p>
               </li>
               <li className="flex items-start gap-3">
-                <div className="mt-1 w-4 h-4 bg-[#54BD95] rounded-full flex-shrink-0" />
+                <div className="mt-1 w-4 h-4 bg-green-10 rounded-full flex-shrink-0" />
                 <p>
                   <strong>Class scheduling & announcements</strong> — Automated
                   scheduling and communication
                 </p>
               </li>
               <li className="flex items-start gap-3">
-                <div className="mt-1 w-4 h-4 bg-[#54BD95] rounded-full flex-shrink-0" />
+                <div className="mt-1 w-4 h-4 bg-green-10 rounded-full flex-shrink-0" />
                 <p>
                   <strong>Parent-teacher communication tools</strong> — Direct
                   messaging and progress tracking
                 </p>
               </li>
               <li className="flex items-start gap-3">
-                <div className="mt-1 w-4 h-4 bg-[#54BD95] rounded-full flex-shrink-0" />
+                <div className="mt-1 w-4 h-4 bg-green-10 rounded-full flex-shrink-0" />
                 <p>
                   <strong>Mobile-ready and admin dashboard</strong> — Access
                   from anywhere, anytime

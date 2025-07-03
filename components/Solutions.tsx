@@ -42,7 +42,7 @@ export default function Solutions() {
               className="bg-white border border-gray-200 p-6 rounded-md shadow-sm text-left"
             >
               <div className="flex items-start space-x-3">
-                <div className="mt-1 w-4 h-4 bg-[#54BD95] rounded-full flex-shrink-0" />
+                <div className="mt-1 w-4 h-4 bg-green-10 rounded-full flex-shrink-0" />
                 <div>
                   <h3 className="font-semibold text-gray-800">{item.title}</h3>
                   <p className="text-gray-600 text-sm mt-1">{item.description}</p>
