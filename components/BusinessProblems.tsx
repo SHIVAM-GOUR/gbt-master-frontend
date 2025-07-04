@@ -14,8 +14,8 @@ const problems = [
 
 export default function BusinessProblems() {
   return (
-    <section className="relative bg-black py-8 px-6 md:px-32 flex flex-col md:flex-row items-center justify-between">
-       <div className="absolute w-[600px] h-[600px] bg-[#00C2E9] rounded-full blur-[100px] opacity-20 top-20  z-0"></div>
+    <section className="relative bg-black py-8 px-6 md:px-40 flex flex-col md:flex-row items-center justify-between">
+       <div className="absolute w-[600px] h-[600px] bg-[#00C2E9] rounded-full blur-[100px] opacity-20  z-0 bottom-0 left-0 max-w-3xl"></div>
       <div className="mb-12 md:mb-0">
         <h2 className="text-5xl font-bold text-white">
           Problems your <br /> <span>Business facing</span>
@@ -40,7 +40,7 @@ export default function BusinessProblems() {
           alt="Laptop"
           width={500}
           height={400}
-          className="rounded-xl"
+          className=""
         />
       </div>
     </section>

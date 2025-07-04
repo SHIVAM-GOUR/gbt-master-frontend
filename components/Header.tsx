@@ -4,8 +4,8 @@ import whiteLogo from "../public/images/white-logo.svg";
 
 export default function Header() {
   return (
-    <header className="bg-black text-white flex justify-between items-center px-6 md:px-20 pt-4">
-      <Image src={whiteLogo} alt="" className="" />
+    <header className="bg-black text-white flex justify-between items-center px-6 md:px-20 pt-8">
+      <Image src={whiteLogo} alt="logo" className="w-48" />
       <nav className="space-x-20 text-sm font-medium">
         <Link href="#hero" className="">
           Home
@@ -21,7 +21,7 @@ export default function Header() {
         </Link>
 
         <Link href="#contact">
-          <button className="bg-green-10 text-white px-4 py-2 rounded-md">
+          <button className="bg-green-10 text-white px-3 py-1 rounded-md">
             Contact Us
           </button>
         </Link>

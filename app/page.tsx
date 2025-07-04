@@ -2,6 +2,10 @@ import About from "../components/About";
 import BusinessProblems from "../components/BusinessProblems";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import OnlinePresence from "../components/OnlinePresence";
+import Products from "../components/Products";
+import Solutions from "../components/Solutions";
+import WhyUs from "../components/WhyUs";
 
 
 
@@ -13,9 +17,10 @@ export default function HomePage() {
       <Hero />
       <About />
       <BusinessProblems />
-      {/* <OnlinePresence />
+      <OnlinePresence />
       <Solutions />
-      <Products /> */}
+      <Products />
+      <WhyUs />
      
     </main>
   );
