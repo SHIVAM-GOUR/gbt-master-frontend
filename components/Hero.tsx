@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import greenVector from "../public/icons/greenVector.svg"
-import laptop from "../public/icons/laptop.svg";
+import hero from "../public/icons/hero.png";
 
 export default function Hero () {
   return (
@@ -8,7 +8,7 @@ export default function Hero () {
         <div className="absolute w-[600px] h-[600px] bg-[#00C2E9] rounded-full blur-[100px] opacity-20 bottom-0 left-0 z-0"></div>
       <div className="max-w-xl">
        
-          <h1 className="text-5xl font-bold">Reliable websites, <br />Ready for You.</h1>
+          <h1 className="text-3xl md:text-5xl font-bold">Reliable websites, <br />Ready for You.</h1>
                    <div className=" mt-2">
         <Image src={greenVector} alt="underline" className="w-60" />
       </div>
@@ -26,7 +26,7 @@ export default function Hero () {
       </div>
 
        <div className="">
-         <Image src={laptop} alt="laptop"  width={500}
+         <Image src={hero} alt="laptop"  width={500}
           height={400}/>
        
       </div>

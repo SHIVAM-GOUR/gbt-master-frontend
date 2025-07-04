@@ -10,7 +10,7 @@ const ProductSection: React.FC = () => {
   return (
     <section className="bg-black py-16 px-4 md:px-20 lg:px-40">
       <div className="text-center mb-12">
-        <h2 className="text-white text-4xl md:text-5xl font-bold">
+        <h2 className="text-white text-3xl md:text-5xl font-bold">
           Our Products
         </h2>
         <div className="w-20 h-1 bg-green-10 mx-auto my-4 rounded" />

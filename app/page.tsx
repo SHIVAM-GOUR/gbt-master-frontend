@@ -1,5 +1,6 @@
 import About from "../components/About";
 import BusinessProblems from "../components/BusinessProblems";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import OnlinePresence from "../components/OnlinePresence";
@@ -21,6 +22,7 @@ export default function HomePage() {
       <Solutions />
       <Products />
       <WhyUs />
+      <Footer />
      
     </main>
   );

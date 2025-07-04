@@ -10,6 +10,10 @@
   --color-foreground: var(--foreground);
   --color-green-10: #54BD95;
   --color-green-20: #00C2E9;
+  --color-darkblue-10: #161C28;
+  --color-darkblue-20: #222938;
+
+
 
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);

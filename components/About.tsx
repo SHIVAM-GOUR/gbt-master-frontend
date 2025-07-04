@@ -13,7 +13,7 @@ export default function About() {
 
     
       <div className="text-center relative z-10 max-w-5xl mx-auto">
-        <h2 className="text-5xl font-semibold mb-3">About Us</h2>
+        <h2 className="text-3xl md:text-5xl font-semibold mb-3">About Us</h2>
         <div className="flex justify-center mb-6">
           <Image src={greenVector} alt="underline" className="w-52" />
         </div>

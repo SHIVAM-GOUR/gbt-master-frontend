@@ -48,7 +48,7 @@ export default function WhyUs () {
          <div className="absolute w-[600px] h-[600px] bg-[#00C2E9] rounded-full blur-[100px] opacity-20  z-0 bottom-0 left-0 max-w-3xl"></div>
       <div className="max-w-3xl mx-auto text-center">
         
-        <h2 className="text-5xl md:text-4xl font-bold mb-4">
+        <h2 className="text-3xl md:text-5xl font-bold mb-4">
           Why We&apos;re the Best
         </h2>
       

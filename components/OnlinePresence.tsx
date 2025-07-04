@@ -13,7 +13,7 @@ export default function OnlinePresence() {
       </div>
       <div className="relative z-10">
         <div className="text-center my-12">
-          <h2 className="text-5xl md:text-4xl font-bold text-white">
+          <h2 className="text--3xl md:text-5xl font-bold text-white">
             Do You Have an Online Presence?
           </h2>
           <div className="flex justify-center mt-2">
