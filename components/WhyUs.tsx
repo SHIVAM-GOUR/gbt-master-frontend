@@ -44,9 +44,9 @@ const features: Feature[] = [
 
 export default function WhyUs () {
   return (
-    <section className="relative bg-black text-white py-16 px-4">
+    <section className="relative bg-black text-white py-16 px-6 md:px-40">
          <div className="absolute w-[600px] h-[600px] bg-[#00C2E9] rounded-full blur-[100px] opacity-20  z-0 bottom-0 left-0 max-w-3xl"></div>
-      <div className="max-w-3xl mx-auto text-center">
+      <div className="max-w-3xl mx-auto text-center relative z-10">
         
         <h2 className="text-3xl md:text-5xl font-bold mb-4">
           Why We&apos;re the Best

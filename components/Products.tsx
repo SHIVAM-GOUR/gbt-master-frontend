@@ -8,7 +8,7 @@ const ProductSection: React.FC = () => {
   const [activeTab, setActiveTab] = useState<"schools" | "business">("schools");
 
   return (
-    <section className="bg-black py-16 px-4 md:px-20 lg:px-40">
+    <section className="bg-black py-16 px-4 md:px-20 ">
       <div className="text-center mb-12">
         <h2 className="text-white text-3xl md:text-5xl font-bold">
           Our Products
@@ -19,7 +19,6 @@ const ProductSection: React.FC = () => {
         </p>
       </div>
 
-      {/* Tabs */}
       <div className="flex justify-center mb-10">
         <div className="bg-gray-100 rounded-full p-1 flex gap-1">
           {["schools", "business"].map((tab) => (
@@ -38,10 +37,10 @@ const ProductSection: React.FC = () => {
         </div>
       </div>
 
-      {/* Schools Tab */}
+     
       {activeTab === "schools" && (
         <div className="bg-white rounded-xl shadow-lg p-8 lg:p-20 flex flex-col lg:flex-row items-center gap-10">
-          {/* Text Section */}
+        
           <div className="w-full lg:w-1/2">
             <h3 className="text-3xl font-semibold text-gray-900">
               GroowForSchools
@@ -86,7 +85,7 @@ const ProductSection: React.FC = () => {
             </ul>
           </div>
 
-          {/* Image Section */}
+        
           <div className="w-full lg:w-1/2 flex justify-center">
             <div className="max-w-xs md:max-w-sm w-full rounded-lg overflow-hidden">
               <Image
@@ -100,7 +99,6 @@ const ProductSection: React.FC = () => {
         </div>
       )}
 
-      {/* Business Tab */}
       {activeTab === "business" && (
         <div className="text-center text-gray-400 mt-10">
           <p>Business content coming soon...</p>

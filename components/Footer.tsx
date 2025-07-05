@@ -2,6 +2,7 @@ import Image from "next/image";
 import aman from "../public/icons/aman.svg";
 import getStarted from "../public/icons/getStarted.svg";
 import footerLogo from "../public/images/footerLogo.svg";
+import quote from "../public/icons/quote.svg";
 
 const Footer = () => {
   return (
@@ -13,13 +14,13 @@ const Footer = () => {
             People are Saying About <br />
             GroowByTech
           </h2>
-          <p className="text-gray-300 italic my-4">
+          <p className="text-gray-300 italic my-6">
             “We launched our school&apos;s new website in just a few days - no
             stress,
             <br /> no tech headaches.”
           </p>
-          <p className="py-8">🤝</p>
-          <p className="text-gray-300 italic mb-6">
+         <Image src = {quote} alt = "" className=""/>
+          <p className="text-gray-300 italic my-6">
             “GroowByTech gave our small business a professional online presence{" "}
             <br />
             without the usual delays or costs.”
