@@ -1,12 +1,13 @@
 import Image from "next/image";
 import hero from "../public/icons/hero.png";
 import play from "../public/icons/play.svg";
+import Link from "next/link";
 
 export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative flex flex-col md:flex-row items-center justify-between px-6 md:px-40 md:h-[90vh] bg-black text-white"
+      className="relative flex flex-col md:flex-row items-center justify-between px-6 md:px-40 h-[90vh] md:h-[90vh] bg-black text-white"
     >
       <div className="absolute w-[600px] h-[600px] bg-green-20 rounded-full blur-[100px] opacity-20 bottom-0 left-0 z-0"></div>
 
@@ -29,9 +30,10 @@ export default function Hero() {
         </p>
 
         <div className="flex items-center gap-4 z-10 ">
-          <button className="bg-green-10 text-white px-2 md:px-4 py-1 md:py-2 rounded-full text-sm md:text-lg">
+           <Link href="#footer"
+          className="bg-green-10 text-white px-2 md:px-4 py-1 md:py-2 rounded-full text-sm md:text-lg">
             Contact Us
-          </button>
+          </Link>
 
           <button className="flex items-center gap-2">
             <Image src={play} alt="play" className="w-6 md:w-8" />
@@ -41,7 +43,7 @@ export default function Hero() {
       </div>
 
       <div className="z-10">
-        <Image src={hero} alt="laptop" className="w-72 md:w-xl mt-12 md:mt-0 mr-8 md:mr-0" />
+        <Image src={hero} alt="laptop" className="w-72 md:w-xl" />
       </div>
     </section>
   );

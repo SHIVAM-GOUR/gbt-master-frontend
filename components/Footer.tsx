@@ -6,7 +6,7 @@ import quote from "../public/icons/quote.svg";
 
 const Footer = () => {
   return (
-    <footer id = "footer" className="bg-darkblue-10 text-white px-6 md:px-40 py-16">
+    <footer id ="footer" className="bg-darkblue-10 text-white px-6 md:px-40 py-16">
       <div className=" mx-auto grid grid-cols-1 md:grid-cols-2 gap-20">
         {/* Left Section */}
         <div>

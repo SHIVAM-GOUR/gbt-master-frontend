@@ -31,7 +31,7 @@ export default function Solutions() {
       <div className="max-w-3xl mx-auto relative z-20">
         <h2 className="text-3xl md:text-5xl font-bold mb-2 text-white">How We Solve These Problems</h2>
           <div className="flex justify-center mt-2">
-          <span className="block h-1 w-full bg-green-10 rounded-full"></span>
+          <span className="block h-1 w-64 md:w-full bg-green-10 rounded-full"></span>
 
           </div>
         <p className="text-white my-10">

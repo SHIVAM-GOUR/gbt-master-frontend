@@ -51,7 +51,7 @@ export default function WhyUs () {
         </h2>
       
          <div className="flex justify-center mb-6">
-        <span className="block h-1 w-lg bg-green-10 rounded-full"></span>
+        <span className="block h-1 w-72 md:w-lg bg-green-10 rounded-full"></span>
         </div>
         <p className="text-gray-200 max-w-xl mx-auto mb-12">
           What sets us apart from traditional development agencies

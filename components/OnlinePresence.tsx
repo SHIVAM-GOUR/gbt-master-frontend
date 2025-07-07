@@ -51,10 +51,10 @@ export default function OnlinePresence() {
             ))}
 
             <div className="bg-green-10 text-white p-4 rounded-md max-w-lg font-bold shadow-md mt-4">
-              If any of these points concern you,
+             <span className="text-center">If any of these points concern you,</span> 
               <br />
-              it&apos;s time to let us help you establish a strong online
-              presence.
+              <span>It&apos;s time to let us help you establish a strong online
+              presence.</span>i
             </div>
           </div>
 
