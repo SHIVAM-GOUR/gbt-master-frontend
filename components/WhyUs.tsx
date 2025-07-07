@@ -1,6 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import greenVector from "../public/icons/greenVector.svg";
 
 
 type Feature = {
@@ -45,7 +43,7 @@ const features: Feature[] = [
 export default function WhyUs () {
   return (
     <section className="relative bg-black text-white py-16 px-6 md:px-40">
-         <div className="absolute w-[600px] h-[600px] bg-[#00C2E9] rounded-full blur-[100px] opacity-20  z-0 bottom-0 left-0 max-w-3xl"></div>
+         <div className="absolute w-[600px] h-[600px] bg-green-20 rounded-full blur-[100px] opacity-20  z-0 bottom-0 left-0 max-w-3xl"></div>
       <div className="max-w-3xl mx-auto text-center relative z-10">
         
         <h2 className="text-3xl md:text-5xl font-bold mb-4">
@@ -53,7 +51,7 @@ export default function WhyUs () {
         </h2>
       
          <div className="flex justify-center mb-6">
-          <Image src={greenVector} alt="underline" className="w-40 md:w-60" />
+        <span className="block h-1 w-lg bg-green-10 rounded-full"></span>
         </div>
         <p className="text-gray-200 max-w-xl mx-auto mb-12">
           What sets us apart from traditional development agencies

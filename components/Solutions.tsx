@@ -1,5 +1,4 @@
 import Image from "next/image";
-import greenVector from "../public/icons/greenVector.svg";
 import greenDots from "../public/icons/greenDots.svg";
 
 const solutions = [
@@ -28,11 +27,12 @@ const solutions = [
 export default function Solutions() {
   return (
     <section className="relative bg-black py-8 px-6 md:px-20 text-center">
-         <div className="absolute w-[500px] h-[600px] bg-[#00C2E9] rounded-full blur-[100px] opacity-20 top-20 z-0 bottom-0 left-0"></div>
-      <div className="max-w-3xl mx-auto">
+         <div className="absolute w-[500px] h-[600px] bg-green-20 rounded-full blur-[100px] opacity-20 top-20 z-0 bottom-0 left-0"></div>
+      <div className="max-w-3xl mx-auto relative z-20">
         <h2 className="text-3xl md:text-5xl font-bold mb-2 text-white">How We Solve These Problems</h2>
           <div className="flex justify-center mt-2">
-            <Image src={greenVector} alt="underline" className="w-60"/>
+          <span className="block h-1 w-full bg-green-10 rounded-full"></span>
+
           </div>
         <p className="text-white my-10">
           <span>Ready-to-deploy solutions that eliminate technical challenges</span><br /><span>and get you online fast</span> 
@@ -49,8 +49,8 @@ export default function Solutions() {
                   <Image src={greenDots} alt="bullet" className="w-4 h-4" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-800">{item.title}</h3>
-                  <p className="text-gray-600 text-sm mt-1">{item.description}</p>
+                  <h3 className="font-semibold text-gray-800 text-sm md:text-lg">{item.title}</h3>
+                  <p className="text-gray-600 text-xs md:text-sm mt-1">{item.description}</p>
                 </div>
               </div>
             </div>

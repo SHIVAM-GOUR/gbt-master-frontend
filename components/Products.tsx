@@ -8,12 +8,12 @@ const ProductSection: React.FC = () => {
   const [activeTab, setActiveTab] = useState<"schools" | "business">("schools");
 
   return (
-    <section className="bg-black py-16 px-4 md:px-20 ">
+    <section className="bg-black py-16 px-4 md:px-40 ">
       <div className="text-center mb-12">
         <h2 className="text-white text-3xl md:text-5xl font-bold">
           Our Products
         </h2>
-        <div className="w-20 h-1 bg-green-10 mx-auto my-4 rounded" />
+        <div className="w-72 h-1 bg-green-10 mx-auto my-4 rounded" />
         <p className="text-gray-200 text-sm md:text-base">
           Choose the perfect solution for your industry needs
         </p>
@@ -39,7 +39,7 @@ const ProductSection: React.FC = () => {
 
      
       {activeTab === "schools" && (
-        <div className="bg-white rounded-xl shadow-lg p-8 lg:p-20 flex flex-col lg:flex-row items-center gap-10">
+        <div className="bg-white rounded-xl shadow-lg py-8 md:py-20 px-8 md:px-40 flex flex-col lg:flex-row items-center">
         
           <div className="w-full lg:w-1/2">
             <h3 className="text-3xl font-semibold text-gray-900">
@@ -49,7 +49,7 @@ const ProductSection: React.FC = () => {
               A complete digital solution for schools
             </p>
 
-            <ul className="space-y-8  text-sm leading-relaxed">
+            <ul className="space-y-8 text-sm md:text-lg leading-relaxed">
               {[
                 {
                   title: "Student & staff management",
@@ -87,12 +87,11 @@ const ProductSection: React.FC = () => {
 
         
           <div className="w-full lg:w-1/2 flex justify-center">
-            <div className="max-w-xs md:max-w-sm w-full rounded-lg overflow-hidden">
+            <div className="max-w-xs md:max-w-md w-full rounded-lg overflow-hidden">
               <Image
                 src={products}
                 alt="School dashboard illustration"
                 className="w-full h-auto object-contain"
-                priority
               />
             </div>
           </div>

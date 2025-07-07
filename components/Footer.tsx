@@ -6,11 +6,11 @@ import quote from "../public/icons/quote.svg";
 
 const Footer = () => {
   return (
-    <footer className="bg-darkblue-10 text-white px-6 md:px-40 py-16">
+    <footer id = "footer" className="bg-darkblue-10 text-white px-6 md:px-40 py-16">
       <div className=" mx-auto grid grid-cols-1 md:grid-cols-2 gap-20">
         {/* Left Section */}
         <div>
-          <h2 className="text-4xl font-semibold mb-6">
+          <h2 className="text-2xl md:text-4xl font-semibold mb-6">
             People are Saying About <br />
             GroowByTech
           </h2>
@@ -81,7 +81,7 @@ const Footer = () => {
          
         </div>
 
-        <div>
+        <div className="">
           <h5 className="font-semibold mb-2">Support</h5>
           <ul className="text-gray-300 space-y-1">
             <li>Help centre</li>
