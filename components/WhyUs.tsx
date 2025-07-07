@@ -46,12 +46,12 @@ export default function WhyUs () {
          <div className="absolute w-[600px] h-[600px] bg-green-20 rounded-full blur-[100px] opacity-20  z-0 bottom-0 left-0 max-w-3xl"></div>
       <div className="max-w-3xl mx-auto text-center relative z-10">
         
-        <h2 className="text-3xl md:text-5xl font-bold mb-4">
+        <h2 className="text-2xl md:text-5xl font-bold mb-4">
           Why We&apos;re the Best
         </h2>
       
          <div className="flex justify-center mb-6">
-        <span className="block h-1 w-72 md:w-lg bg-green-10 rounded-full"></span>
+        <span className="block h-1 w-64 md:w-lg bg-green-10 rounded-full"></span>
         </div>
         <p className="text-gray-200 max-w-xl mx-auto mb-12">
           What sets us apart from traditional development agencies

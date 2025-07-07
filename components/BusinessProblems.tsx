@@ -22,7 +22,7 @@ export default function BusinessProblems() {
         <h2 className="text-2xl md:text-5xl font-bold text-white">
           Problems your  Businesses facing
         </h2>
-        <div className="mt-3 h-1 w-90 md:w-3xl bg-green-10 rounded-full mx-auto" />
+        <div className="mt-3 h-1 max-w-xs md:w-3xl bg-green-10 rounded-full mx-auto" />
       </div>
 
   

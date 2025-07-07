@@ -29,9 +29,9 @@ export default function Solutions() {
     <section className="relative bg-black py-8 px-6 md:px-20 text-center">
          <div className="absolute w-[500px] h-[600px] bg-green-20 rounded-full blur-[100px] opacity-20 top-20 z-0 bottom-0 left-0"></div>
       <div className="max-w-3xl mx-auto relative z-20">
-        <h2 className="text-3xl md:text-5xl font-bold mb-2 text-white">How We Solve These Problems</h2>
+        <h2 className="text-2xl md:text-5xl font-bold mb-2 text-white">How We Solve These Problems</h2>
           <div className="flex justify-center mt-2">
-          <span className="block h-1 w-64 md:w-full bg-green-10 rounded-full"></span>
+          <span className="block h-1 w-72 md:w-full bg-green-10 rounded-full"></span>
 
           </div>
         <p className="text-white my-10">

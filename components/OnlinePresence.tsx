@@ -16,7 +16,7 @@ export default function OnlinePresence() {
             Do You Have an Online Presence?
           </h2>
           <div className="flex justify-center mt-2">
-            <span className="block h-1 w-60 md:w-3xl bg-green-10 rounded-full"></span>
+            <span className="block h-1 w-72 md:w-3xl bg-green-10 rounded-full"></span>
           </div>
           <p className="text-white mt-4">
             Evaluate your current digital footprint and discover what you might

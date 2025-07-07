@@ -6,11 +6,14 @@ import quote from "../public/icons/quote.svg";
 
 const Footer = () => {
   return (
-    <footer id ="footer" className="bg-darkblue-10 text-white px-6 md:px-40 py-16">
+    <footer
+      id="footer"
+      className="bg-darkblue-10 text-white px-6 md:px-40 py-16"
+    >
       <div className=" mx-auto grid grid-cols-1 md:grid-cols-2 gap-20">
         {/* Left Section */}
         <div>
-          <h2 className="text-2xl md:text-4xl font-semibold mb-6">
+          <h2 className="text-2xl md:text-4xl font-semibold mb-0 md:mb-6 text-center md:text-left">
             People are Saying About <br />
             GroowByTech
           </h2>
@@ -19,13 +22,13 @@ const Footer = () => {
             stress,
             <br /> no tech headaches.”
           </p>
-         <Image src = {quote} alt = "" className=""/>
+          <Image src={quote} alt="" className="w-8 md:w-16" />
           <p className="text-gray-300 italic my-6">
             “GroowByTech gave our small business a professional online presence{" "}
             <br />
             without the usual delays or costs.”
           </p>
-          <div className="flex items-center gap-10 py-8">
+          <div className="flex items-center  gap-6 md:gap-10 py-8 ">
             <span className="text-sm text-white">_ Shivam Gour</span>
             <div className="w-10 h-10 rounded-full overflow-hidden">
               <Image src={aman} alt="Aman Tiwari" width={60} height={60} />
@@ -43,18 +46,18 @@ const Footer = () => {
             Get Started
           </h3>
           <form className="flex flex-col gap-4">
-             <label className="text-white font-medium text-sm">
-    Email Or Phone
-  </label>
+            <label className="text-white font-medium text-sm">
+              Email Or Phone
+            </label>
             <input
               type="email"
               placeholder="Enter your email or phone number"
               className="px-4 py-3 rounded-md bg-white text-black placeholder:text-gray-400"
               required
             />
-             <label className="text-white font-medium text-sm">
-   Query Message
-  </label>
+            <label className="text-white font-medium text-sm">
+              Query Message
+            </label>
             <textarea
               placeholder="How can we help you ?"
               rows={3}
@@ -74,11 +77,10 @@ const Footer = () => {
       {/* Bottom Footer */}
       <div className="mt-16 border-gray-700 pt-10 grid grid-cols-1 md:grid-cols-4 gap-8 text-sm">
         <div>
-         <Image src= {footerLogo} alt="logo" className="w-40" />
+          <Image src={footerLogo} alt="logo" className="w-40" />
           <p className="text-gray-400 mt-4">
             Grow Your Business or School with us - <br /> Without Hassle.
           </p>
-         
         </div>
 
         <div className="">
@@ -109,14 +111,15 @@ const Footer = () => {
         </div>
       </div>
 
-     <div className="flex flex-col sm:flex-row justify-between items-center mt-8">
-    <p className="mb-2 sm:mb-0">© 2025 GroowByTech Inc. All rights reserved.</p>
-   
-      <p>Terms and Conditions</p>
-    
-      <p>Privacy Policy</p>
-   
-  </div>
+      <div className="flex flex-col sm:flex-row justify-between items-center mt-8">
+        <p className="mb-2 sm:mb-0">
+          © 2025 GroowByTech Inc. All rights reserved.
+        </p>
+
+        <p>Terms and Conditions</p>
+
+        <p>Privacy Policy</p>
+      </div>
     </footer>
   );
 };
