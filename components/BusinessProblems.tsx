@@ -20,7 +20,7 @@ export default function BusinessProblems() {
      
       <div className="relative z-10 text-center mb-16">
         <h2 className="text-2xl md:text-5xl font-bold text-white">
-          Problems your  Business facing
+          Problems your  Businesses facing
         </h2>
         <div className="mt-3 h-1 w-90 md:w-3xl bg-green-10 rounded-full mx-auto" />
       </div>

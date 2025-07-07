@@ -11,7 +11,6 @@ export default function OnlinePresence() {
         <Image src={onlineVector} alt="Vector" className="w-[800px] h-auto" />
       </div>
       <div className="relative z-10">
-
         <div className="text-center my-12">
           <h2 className="text-2xl md:text-5xl font-bold text-white">
             Do You Have an Online Presence?
@@ -29,7 +28,6 @@ export default function OnlinePresence() {
             Consider These Key Points:
           </span>
         </div>
-
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           <div className="space-y-4">
@@ -50,11 +48,11 @@ export default function OnlinePresence() {
               </div>
             ))}
 
-            <div className="bg-green-10 text-white p-4 rounded-md max-w-lg font-bold shadow-md mt-4">
-             <span className="text-center">If any of these points concern you,</span> 
+            <div className="bg-green-10 text-white p-4 rounded-md max-w-lg font-bold shadow-md mt-4 text-center">
+              If any of these points concern you,
               <br />
-              <span>It&apos;s time to let us help you establish a strong online
-              presence.</span>i
+              it&apos;s time to let us help you establish a strong online
+              presence.
             </div>
           </div>
 

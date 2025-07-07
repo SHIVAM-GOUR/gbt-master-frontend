@@ -5,14 +5,16 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section
-      id="hero"
-      className="relative flex flex-col md:flex-row items-center justify-between px-6 md:px-40 h-[90vh] md:h-[90vh] bg-black text-white"
-    >
+  <section
+  id="hero"
+  className="relative pt-32 md:pt-0 flex flex-col md:flex-row items-center justify-between px-6 md:px-40 h-auto md:h-[90vh] bg-black text-white"
+>
+
       <div className="absolute w-[600px] h-[600px] bg-green-20 rounded-full blur-[100px] opacity-20 bottom-0 left-0 z-0"></div>
 
       <div className="max-w-xl z-10">
-        <h1 className="text-2xl md:text-6xl font-bold relative inline-block mt-8 md:mt-0">
+      <h1 className="text-2xl md:text-6xl font-bold relative inline-block">
+
           Reliable websites, <br />
           Ready for You.
           <span className="block w-full h-1 bg-green-10 mt-2 md:mt-4"></span>
@@ -43,7 +45,7 @@ export default function Hero() {
       </div>
 
       <div className="z-10">
-        <Image src={hero} alt="laptop" className="w-72 md:w-xl" />
+        <Image src={hero} alt="laptop" className="w-72 md:w-xl py-8 md:py-0" />
       </div>
     </section>
   );

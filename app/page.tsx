@@ -12,7 +12,7 @@ import WhyUs from "../components/WhyUs";
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen font-sans bg-background text-foreground">
+    <main className="min-h-screen font-sans bg-background text-foreground overflow-x-hidden">
      
       <Header />
       <Hero />
