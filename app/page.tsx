@@ -6,6 +6,7 @@ import Hero from "../components/Hero";
 import OnlinePresence from "../components/OnlinePresence";
 import Products from "../components/Products";
 import Solutions from "../components/Solutions";
+import StartToday from "../components/StartToday/StartToday";
 import WhyUs from "../components/WhyUs";
 
 
@@ -22,6 +23,7 @@ export default function HomePage() {
       <Solutions />
       <Products />
       <WhyUs />
+      <StartToday />
       <Footer />
      
     </main>
