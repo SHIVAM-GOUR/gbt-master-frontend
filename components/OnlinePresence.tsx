@@ -6,7 +6,7 @@ import greenDots from "../public/icons/greenDots.svg";
 
 export default function OnlinePresence() {
   return (
-    <section className="relative bg-black py-8 md:py-14 px-6 md:px-40 overflow-hidden">
+    <section className="relative bg-black py-8 md:py-14 px-6 md:px-48 overflow-hidden">
       <div className="absolute left-0 transform -translate-y-1/4 hidden md:block opacity-100 z-0">
         <Image src={onlineVector} alt="Vector" className="w-[800px] h-auto" />
       </div>

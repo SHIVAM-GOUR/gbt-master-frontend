@@ -14,13 +14,13 @@ const contactMethods = [
     icon: call,
     title: 'Call Us',
     desc: 'Speak directly with our team',
-    value: '+1 (555) 123-4567',
+    value: '+91 70091 33648',
   },
   {
     icon: whatsap,
     title: 'WhatsApp',
     desc: 'Quick chat support',
-    value: '+1 (555) 987-6543',
+    value: '+91 70091 33648',
   },
 ];
 
@@ -31,7 +31,7 @@ export default function ContactOptions() {
         {contactMethods.map((method, i) => (
           <div
             key={i}
-            className="bg-white text-black p-3 rounded-lg shadow text-center"
+            className="bg-white text-black p-5 rounded-lg shadow text-center"
           >
             <div className="w-12 h-12 mx-auto mb-3 bg-green-10 rounded-lg flex items-center justify-center">
               <Image src={method.icon} alt={method.title} width={24} height={24} />

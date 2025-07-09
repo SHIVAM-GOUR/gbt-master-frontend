@@ -8,7 +8,7 @@ const ProductSection: React.FC = () => {
   const [activeTab, setActiveTab] = useState<"schools" | "business">("schools");
 
   return (
-    <section id="products" className="bg-black py-16 px-4 md:px-40 ">
+    <section id="products" className="bg-black py-16 px-4 md:px-48 ">
       <div className="text-center mb-12">
         <h2 className="text-white text-3xl md:text-5xl font-bold">
           Our Products

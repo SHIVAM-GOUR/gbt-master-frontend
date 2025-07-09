@@ -5,15 +5,15 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-  <section
-  id="hero"
-  className="relative pt-32 md:pt-0 flex flex-col md:flex-row items-center justify-between px-6 md:px-40 h-auto md:h-[90vh] bg-black text-white"
->
+    <section
+      id="hero"
+      className="relative pt-32 md:pt-0 flex flex-col md:flex-row items-center justify-between px-6 md:px-48 h-auto md:h-[100vh] bg-black text-white"
+    >
 
       <div className="absolute w-[600px] h-[600px] bg-green-20 rounded-full blur-[100px] opacity-20 bottom-0 left-0 z-0"></div>
 
       <div className="max-w-xl z-10">
-      <h1 className="text-2xl md:text-6xl font-bold relative inline-block">
+        <h1 className="text-2xl md:text-6xl font-bold relative inline-block">
 
           Reliable websites, <br />
           Ready for You.
@@ -32,8 +32,8 @@ export default function Hero() {
         </p>
 
         <div className="flex items-center gap-4 z-10 ">
-           <Link href="#footer"
-          className="bg-green-10 text-white px-2 md:px-4 py-1 md:py-2 rounded-full text-sm md:text-lg">
+          <Link href="#footer"
+            className="bg-green-10 text-white px-2 md:px-4 py-1 md:py-2 rounded-full text-sm md:text-lg">
             Contact Us
           </Link>
 
