@@ -1,7 +1,6 @@
 import About from "../components/About";
 import BusinessProblems from "../components/BusinessProblems";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
+
 import Hero from "../components/Hero";
 import OnlinePresence from "../components/OnlinePresence";
 import Products from "../components/Products";
@@ -15,7 +14,7 @@ export default function HomePage() {
   return (
     <main className="min-h-screen font-sans bg-background text-foreground overflow-x-hidden">
      
-      <Header />
+      {/* <Header /> */}
       <Hero />
       <About />
       <BusinessProblems />
@@ -24,7 +23,7 @@ export default function HomePage() {
       <Products />
       <WhyUs />
       <StartToday />
-      <Footer />
+      {/* <Footer /> */}
      
     </main>
   );
