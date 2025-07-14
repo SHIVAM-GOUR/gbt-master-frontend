@@ -13,7 +13,7 @@ export default function NavLinksDesktop({ isScrolled }) {
       <Link href="#about" className={linkClasses}>About Us</Link>
       <Link
         href="#footer"
-        className="px-4 py-2 rounded-md font-bold bg-green-10 text-white transition"
+        className="px-4 py-2 rounded-md font-bold bg-green-10 text-white hover:bg-white hover:text-green-10 hover:border-2 border-green-10 transition"
       >
         Contact Us
       </Link>
