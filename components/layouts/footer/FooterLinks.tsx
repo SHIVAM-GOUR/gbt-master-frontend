@@ -13,9 +13,12 @@ const FooterLinks = () => (
     <div>
       <h5 className="font-semibold mb-2">Support</h5>
       <ul className="text-gray-300 space-y-1">
-        <li>Help centre</li>
-        <li>Account information</li>
-        <li>About</li>
+        <li><a href="#footer">Help centre</a></li>
+        <li><a href="#footer">Account information</a></li>
+     <li>
+  <a href="#about" className="hover:underline">About</a>
+</li>
+
         <li>Contact us</li>
       </ul>
     </div>
@@ -23,8 +26,8 @@ const FooterLinks = () => (
     <div>
       <h5 className="font-semibold mb-2">Help and Solution</h5>
       <ul className="text-gray-300 space-y-1">
-        <li>Talk to support</li>
-        <li>Support docs</li>
+        <li><a href="#footer">Talk to support</a></li>
+        <li><a href="#footer">Support docs</a></li>
       </ul>
     </div>
 
