@@ -28,7 +28,7 @@ const FooterGetStartedForm = () => (
       />
       <button
         type="submit"
-        className="bg-green-10 transition text-white py-3 rounded-md font-semibold"
+        className="bg-green-10 hover:bg-white hover:text-green-10 transition text-white py-3 rounded-md font-semibold"
       >
         Request Guaranteed Callback
       </button>

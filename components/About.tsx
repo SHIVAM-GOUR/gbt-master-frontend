@@ -35,7 +35,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="relative bg-black text-white px-6 md:px-40 py-16 md:py-24 overflow-hidden"
+      className="relative bg-black text-white px-6 md:px-40 py-16 md:py-32 overflow-hidden"
     >
       {/* Image: slide in left to right */}
       <motion.div
