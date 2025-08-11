@@ -78,7 +78,7 @@ export default function BusinessProblems() {
         className="relative z-10 text-center mb-16"
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
+       // transition={{ duration: 0.8 }}
       >
         <MotionH2 className="text-2xl md:text-5xl font-bold text-white">
           Problems Businesses face
@@ -87,7 +87,7 @@ export default function BusinessProblems() {
           className="mt-3 h-1 max-w-xs md:w-3xl bg-green-10 rounded-full mx-auto"
           initial={{ scaleX: 0 }}
           whileInView={{ scaleX: 1 }}
-          transition={{ duration: 0.6 }}
+        //  transition={{ duration: 0.6 }}
           style={{ originX: 0 }}
         />
       </MotionDiv>
