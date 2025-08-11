@@ -179,9 +179,9 @@ export default function WhyUs() {
               {/* Bouncy icon */}
               <motion.div
                 className="text-3xl mr-4"
-                animate={{ y: [0, -5, 0] }}
-                transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
-              >
+               // animate={{ y: [0, -5, 0] }}
+               // transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
+              > 
                 {icon}
               </motion.div>
               <div>
