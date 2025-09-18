@@ -1,6 +1,7 @@
 import Footer from '../components/layouts/footer/Footer';
 import Header from '../components/layouts/header/Header';
 import ScrollToTopButton from '../components/ScrollToTopButton';
+import { Providers } from '../providers';
 import './globals.css';
 import type { Metadata } from 'next';
 
@@ -11,12 +12,15 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body>
-        <Header />
+        <Providers>
+          <Header />
         {children}
         <Footer />
          <ScrollToTopButton />
+        </Providers>
+        
       </body>
     </html>
   );
