@@ -1,8 +1,7 @@
 // import React from "react";
 
-
 // type Feature = {
-//   icon: string; 
+//   icon: string;
 //   title: string;
 //   description: string;
 // };
@@ -45,11 +44,11 @@
 //     <section className="relative bg-black text-white py-16 px-6 md:px-40">
 //          <div className="absolute w-[600px] h-[600px] bg-green-20 rounded-full blur-[100px] opacity-20  z-0 bottom-0 left-0 max-w-3xl"></div>
 //       <div className="max-w-3xl mx-auto text-center relative z-10">
-        
+
 //         <h2 className="text-2xl md:text-5xl font-bold mb-4">
 //           Why We&apos;re the Best
 //         </h2>
-      
+
 //          <div className="flex justify-center mb-6">
 //         <span className="block h-1 w-64 md:w-lg bg-green-10 rounded-full"></span>
 //         </div>
@@ -121,7 +120,7 @@ const features: Feature[] = [
 
 export default function WhyUs() {
   return (
-    <section className="relative bg-black text-white py-16 px-6 md:px-40 overflow-hidden">
+    <section className="relative bg-black dark:bg-white text-white dark:text-black py-16 px-6 md:px-40 overflow-hidden">
       {/* Animated background blob */}
       <motion.div
         className="absolute w-[600px] h-[600px] bg-green-20 rounded-full blur-[120px] opacity-20 z-0 bottom-0 left-0"
@@ -145,7 +144,7 @@ export default function WhyUs() {
         </div>
 
         <motion.p
-          className="text-gray-200 max-w-xl mx-auto mb-12"
+          className="text-gray-200 dark:text-gray-900 max-w-xl mx-auto mb-12"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
@@ -168,9 +167,23 @@ export default function WhyUs() {
           }}
         >
           {features.map(({ icon, title, description }, index) => (
+            
+            
             <motion.div
               key={index}
-              className="flex items-start bg-white text-black rounded-xl shadow-sm p-4 hover:shadow-xl hover:bg-gradient-to-r hover:from-green-50 hover:to-green-100 transform hover:-translate-y-1 hover:scale-105 transition duration-300"
+              className="
+    flex items-start 
+    bg-white dark:bg-black  
+    text-black dark:text-white 
+    rounded-xl shadow-sm p-4 
+
+    hover:shadow-xl 
+    hover:bg-gradient-to-r hover:from-green-50 hover:to-green-100 
+    dark:hover:from-green-300 dark:hover:to-green-500 
+
+    transform hover:-translate-y-1 hover:scale-105 
+    transition duration-300
+  "
               variants={{
                 hidden: { opacity: 0, y: 30 },
                 visible: { opacity: 1, y: 0 },
@@ -179,14 +192,16 @@ export default function WhyUs() {
               {/* Bouncy icon */}
               <motion.div
                 className="text-3xl mr-4"
-               // animate={{ y: [0, -5, 0] }}
-               // transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
-              > 
+                // animate={{ y: [0, -5, 0] }}
+                // transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
+              >
                 {icon}
               </motion.div>
               <div>
                 <h3 className="text-lg font-semibold">{title}</h3>
-                <p className="text-sm text-gray-600 mt-1">{description}</p>
+                <p className="text-sm text-gray-600 dark:text-white mt-1">
+                  {description}
+                </p>
               </div>
             </motion.div>
           ))}

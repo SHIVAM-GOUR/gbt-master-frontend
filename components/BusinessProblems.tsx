@@ -71,7 +71,7 @@ const problems = [
 
 export default function BusinessProblems() {
   return (
-    <section className="relative bg-black py-8 md:py-16 px-6 md:px-48 overflow-hidden">
+    <section className="relative bg-black dark:bg-white text-white dark:text-black py-8 md:py-16 px-6 md:px-48 overflow-hidden">
       <div className="absolute w-[600px] h-[600px] bg-green-20 rounded-full blur-[100px] opacity-20 z-0 bottom-0 left-0" />
 
       <MotionDiv
@@ -80,7 +80,7 @@ export default function BusinessProblems() {
         whileInView={{ opacity: 1, y: 0 }}
        // transition={{ duration: 0.8 }}
       >
-        <MotionH2 className="text-2xl md:text-5xl font-bold text-white">
+        <MotionH2 className="text-2xl md:text-5xl font-bold">
           Problems Businesses face
         </MotionH2>
         <MotionDiv
@@ -99,7 +99,7 @@ export default function BusinessProblems() {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <p className="text-white text-lg md:text-2xl my-8 ml-4 md:ml-6 font-bold">
+          <p className=" text-lg md:text-2xl my-8 ml-4 md:ml-6 font-bold">
             Major Problems Businesses face:
           </p>
           <MotionUl
@@ -117,7 +117,7 @@ export default function BusinessProblems() {
             {problems.map((problem, index) => (
               <MotionLi
                 key={index}
-                className="flex items-center gap-3 text-base md:text-xl text-white"
+                className="flex items-center gap-3 text-base md:text-xl"
                 variants={{
                   hidden: { opacity: 0, y: 20 },
                   visible: { opacity: 1, y: 0 },

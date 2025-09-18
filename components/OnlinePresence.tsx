@@ -88,7 +88,7 @@ const points = [
 
 export default function OnlinePresence() {
   return (
-    <section className="relative bg-black py-8 md:py-14 px-6 md:px-48 overflow-hidden">
+    <section className="relative bg-black dark:bg-white text-white dark:text-black py-8 md:py-14 px-6 md:px-48 overflow-hidden">
       <div className="absolute left-0 transform -translate-y-1/4 hidden md:block opacity-100 z-0">
         <Image src={onlineVector} alt="Vector" className="w-[800px] h-auto" />
       </div>
@@ -96,20 +96,20 @@ export default function OnlinePresence() {
       <div className="relative z-10">
         {/* Static Heading Section */}
         <div className="text-center my-12">
-          <h2 className="text-2xl md:text-5xl font-bold text-white">
+          <h2 className="text-2xl md:text-5xl font-bold">
             Do You Have an Online Presence?
           </h2>
           <div className="flex justify-center mt-2">
             <span className="block h-1 w-72 md:w-3xl bg-green-10 rounded-full"></span>
           </div>
-          <p className="text-white mt-4">
+          <p className="mt-4">
             Evaluate your current digital footprint and discover what you might
             be missing
           </p>
         </div>
 
         <div className="mb-4">
-          <span className="font-bold text-white">
+          <span className="font-bold">
             Consider These Key Points:
           </span>
         </div>
@@ -147,7 +147,7 @@ export default function OnlinePresence() {
             ))}
 
             <MotionDiv
-              className="bg-green-10 text-white p-4 rounded-md max-w-lg font-bold shadow-md mt-4 text-center"
+              className="bg-green-10 p-4 rounded-md max-w-lg font-bold shadow-md mt-4 text-center"
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6 }}

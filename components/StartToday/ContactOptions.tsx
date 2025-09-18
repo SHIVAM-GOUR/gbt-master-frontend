@@ -31,14 +31,14 @@ export default function ContactOptions() {
         {contactMethods.map((method, i) => (
           <div
             key={i}
-            className="bg-white text-black p-5 rounded-lg shadow text-center"
+            className="bg-white dark:bg-black dark:text-white text-black p-5 rounded-lg shadow text-center"
           >
             <div className="w-12 h-12 mx-auto mb-3 bg-green-10 rounded-lg flex items-center justify-center">
               <Image src={method.icon} alt={method.title} width={24} height={24} />
             </div>
 
             <h4 className="font-bold">{method.title}</h4>
-            <p className="text-sm text-gray-700">{method.desc}</p>
+            <p className="text-sm text-gray-700 dark:text-white">{method.desc}</p>
             <p className="text-emerald-600 font-medium mt-2">{method.value}</p>
           </div>
         ))}
