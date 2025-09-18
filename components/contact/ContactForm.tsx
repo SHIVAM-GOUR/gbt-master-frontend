@@ -49,7 +49,7 @@ export default function ContactForm() {
         <div className="mb-8">
           <h2 className="text-2xl md:text-4xl font-bold mb-4">Send Us a Message</h2>
           <p className="text-gray-600">
-            Fill out the form below and we'll get back to you within 24 hours.
+            Fill out the form below and we&apos;ll get back to you within 24 hours.
           </p>
         </div>
 
@@ -157,7 +157,7 @@ export default function ContactForm() {
 
             {showSuccess && (
               <p className="text-green-10 font-semibold">
-                Message sent successfully! We'll get back to you soon.
+                Message sent successfully! We&apos;ll get back to you soon.
               </p>
             )}
           </div>

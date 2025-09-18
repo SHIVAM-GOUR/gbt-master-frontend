@@ -112,8 +112,8 @@ export default function Pricing() {
           <div className="bg-darkblue-10 text-white p-8 rounded-3xl">
             <h3 className="text-2xl font-bold mb-4">Need Something Custom?</h3>
             <p className="text-lg mb-6 max-w-2xl mx-auto">
-              Every organization is unique. If our standard plans don't fit your needs,
-              we'll create a custom solution tailored specifically for you.
+              Every organization is unique. If our standard plans don&apos;t fit your needs,
+              we&apos;ll create a custom solution tailored specifically for you.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="/contact" className="bg-green-10 text-white px-6 py-3 rounded-full hover:bg-opacity-90 transition-all">

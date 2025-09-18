@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function AboutHero() {
   return (
     <section className="relative pt-32 md:pt-24 flex flex-col md:flex-row items-center justify-between px-6 md:px-48 h-auto md:h-[80vh] bg-black text-white">

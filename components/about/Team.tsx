@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Team() {
   const teamMembers = [
     {
@@ -87,7 +85,7 @@ export default function Team() {
           <div className="bg-darkblue-10 text-white p-8 rounded-3xl">
             <h3 className="text-2xl md:text-3xl font-bold mb-4">Join Our Growing Team</h3>
             <p className="text-lg mb-6 max-w-2xl mx-auto">
-              We're always looking for talented individuals who share our passion for
+              We&apos;re always looking for talented individuals who share our passion for
               creating exceptional web solutions. Explore career opportunities with us.
             </p>
             <a href="/careers" className="bg-green-10 text-white px-6 py-3 rounded-full text-lg hover:bg-opacity-90 transition-all inline-block">

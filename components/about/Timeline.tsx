@@ -32,7 +32,7 @@ export default function Timeline() {
     },
     {
       year: "2024",
-      title: "Innovation & AI Integration",
+      title: "Innovation And AI Integration",
       description: "Integrated AI-powered features and launched next-generation website building platform.",
       icon: "🤖"
     }
@@ -48,7 +48,7 @@ export default function Timeline() {
           </div>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             From a small startup to a trusted partner for hundreds of organizations,
-            here's how we've grown and evolved over the years.
+            here&apos;s how we&apos;ve grown and evolved over the years.
           </p>
         </div>
 

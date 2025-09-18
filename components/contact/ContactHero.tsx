@@ -11,7 +11,7 @@ export default function ContactHero() {
         </h1>
 
         <p className="text-base md:text-lg mb-8 max-w-2xl mx-auto">
-          Ready to transform your online presence? We're here to help you every step of the way.
+          Ready to transform your online presence? We&apos;re here to help you every step of the way.
           Contact us today to discuss your project and get a free consultation.
         </p>
 
