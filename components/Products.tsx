@@ -119,7 +119,7 @@ const ProductSection: React.FC = () => {
   const [activeTab, setActiveTab] = useState<"schools" | "business">("schools");
 
   return (
-    <section id="products" className="bg-black dark:bg-white py-16 px-4 md:px-48">
+    <section id="products" className="dark:bg-black bg-white py-16 px-4 md:px-48">
       {/* Heading section */}
       <motion.div
         className="text-center mb-12"
@@ -127,11 +127,11 @@ const ProductSection: React.FC = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <h2 className="text-white dark:text-black text-3xl md:text-5xl font-bold">
+        <h2 className="dark:text-white text-black text-3xl md:text-5xl font-bold">
           Our Products
         </h2>
         <div className="w-60 md:w-72 h-1 bg-green-10 mx-auto my-4 rounded" />
-        <p className="text-gray-200 dark:text-black text-sm md:text-base">
+        <p className="dark:text-gray-200 text-black text-sm md:text-base">
           Choose the perfect solution for your industry needs
         </p>
       </motion.div>
@@ -145,8 +145,8 @@ const ProductSection: React.FC = () => {
               onClick={() => setActiveTab(tab as "schools" | "business")}
               className={`px-6 py-2 text-sm font-medium rounded-full transition-all duration-200 ${
                 activeTab === tab
-                  ? "bg-green-10 text-white dark:text-black"
-                  : "text-gray-700 dark:text-black hover:text-black"
+                  ? "bg-green-10 dark:text-white text-black"
+                  : "dark:text-gray-700 text-black hover:text-black"
               }`}
             >
               {tab === "schools" ? "GroowForSchools" : "GroowForBusiness"}
@@ -160,17 +160,17 @@ const ProductSection: React.FC = () => {
         {activeTab === "schools" && (
           <motion.div
             key="schools"
-            className="bg-white dark:bg-black rounded-xl shadow-lg py-8 md:py-20 px-8 md:px-40 flex flex-col lg:flex-row items-center"
+            className="dark:bg-white bg-black rounded-xl shadow-lg py-8 md:py-20 px-8 md:px-40 flex flex-col lg:flex-row items-center"
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: 50 }}
             transition={{ duration: 0.8 }}
           >
             <div className="w-full lg:w-1/2">
-              <h3 className="text-3xl font-semibold text-gray-900 dark:text-white">
+              <h3 className="text-3xl font-semibold dark:text-gray-900 text-white">
                 GroowForSchools
               </h3>
-              <p className="text-gray-600 dark:text-white my-4">
+              <p className="dark:text-gray-600 text-white my-4">
                 A complete digital solution for schools
               </p>
 
@@ -220,9 +220,9 @@ const ProductSection: React.FC = () => {
                       <Image src={greenDots} alt="bullet" className="w-4 h-4" />
                     </div>
                     <p>
-                      <strong className="text-gray-700 dark:text-white">{item.title}</strong>
+                      <strong className="dark:text-gray-700 text-white">{item.title}</strong>
                       <br />
-                      <span className="text-gray-500 dark:text-white">{item.desc}</span>
+                      <span className="dark:text-gray-500 text-white">{item.desc}</span>
                     </p>
                   </motion.li>
                 ))}
@@ -250,7 +250,7 @@ const ProductSection: React.FC = () => {
         {activeTab === "business" && (
           <motion.div
             key="business"
-            className="text-center text-gray-400 dark:text-black mt-10"
+            className="text-center dark:text-gray-400 text-black mt-10"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}

@@ -3,7 +3,7 @@ import ThemeSwitch from "./ThemeSwitch";
 
 export default function NavLinksDesktop({ isScrolled }) {
   const linkClasses = `font-bold text-base border-b-2 border-transparent hover:border-current transition duration-300 pb-1 ${
-    isScrolled ? "text-black dark:text-white hover:border-black" : "text-white dark:text-black hover:border-white"
+    isScrolled ? "dark:text-black text-white hover:border-black" : "dark:text-white text-black hover:border-white"
   }`;
 
   return (

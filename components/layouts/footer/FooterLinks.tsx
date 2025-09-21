@@ -7,25 +7,25 @@ const FooterLinks = () => (
     <div>
       {/* Light mode logo */}
       <Image 
-        src={footerLogo} 
+        src={logo} 
         alt="Footer Logo" 
         className="w-40 dark:hidden" 
       />
       {/* Dark mode logo */}
       <Image 
-        src={logo} 
+        src={footerLogo} 
         alt="Dark Mode Logo" 
         className="w-40 hidden dark:block" 
       />
 
-      <p className="text-gray-400 dark:text-black mt-4">
+      <p className="dark:text-gray-400 text-black mt-4">
         Grow Your Business or School with us - <br /> Without Hassle.
       </p>
     </div>
 
     <div>
       <h5 className="font-semibold mb-2">Support</h5>
-      <ul className="text-gray-300 dark:text-black space-y-1">
+      <ul className="dark:text-gray-300 text-black space-y-1">
         <li><a href="#footer">Help centre</a></li>
         <li><a href="#footer">Account information</a></li>
         <li><a href="#about" className="hover:underline">About</a></li>
@@ -35,7 +35,7 @@ const FooterLinks = () => (
 
     <div>
       <h5 className="font-semibold mb-2">Help and Solution</h5>
-      <ul className="text-gray-300 dark:text-black space-y-1">
+      <ul className="dark:text-gray-300 text-black space-y-1">
         <li><a href="#footer">Talk to support</a></li>
         <li><a href="#footer">Support docs</a></li>
       </ul>
@@ -43,7 +43,7 @@ const FooterLinks = () => (
 
     <div>
       <h5 className="font-semibold mb-2">Products</h5>
-      <ul className="text-gray-300 dark:text-black space-y-1">
+      <ul className="dark:text-gray-300 text-black space-y-1">
         <li>GroowForEducation</li>
         <li>GroowForBusiness</li>
         <li>GroowForCelebs</li>

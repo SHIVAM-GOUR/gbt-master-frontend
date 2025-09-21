@@ -1,5 +1,6 @@
 
-"use client";
+
+
 import Image from "next/image";
 import { useTheme } from "next-themes";
 import logo from "../../../public/images/logo.svg";
@@ -11,11 +12,11 @@ export default function Logo({ isScrolled }) {
   const imageSrc =
     theme === "dark"
       ? isScrolled
-        ? footerLogo
-        : logo
+        ? logo
+        : footerLogo
       : isScrolled
-      ? logo
-      : footerLogo;
+      ? footerLogo
+      : logo;
 
   return (
     <Image

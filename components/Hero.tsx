@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative pt-32 md:pt-0 flex flex-col md:flex-row items-center justify-between px-6 md:px-48 h-auto md:h-[100vh] bg-black dark:bg-white text-white dark:text-black"
+      className="relative pt-32 md:pt-0 flex flex-col md:flex-row items-center justify-between px-6 md:px-48 h-auto md:h-[100vh] dark:bg-black bg-white dark:text-white text-black"
     >
 
       <div className="absolute w-[600px] h-[600px] bg-green-20 rounded-full blur-[100px] opacity-20 bottom-0 left-0 z-0"></div>
@@ -39,7 +39,7 @@ export default function Hero() {
 
           <button className="flex items-center gap-2">
             <Image src={play} alt="play" className="w-6 md:w-8" />
-            <span className="text-sm md:text-base text-gray-300 dark:text-black"> Schedule Free Demo</span>
+            <span className="text-sm md:text-base dark:text-gray-300 text-black"> Schedule Free Demo</span>
           </button>
         </div>
       </div>

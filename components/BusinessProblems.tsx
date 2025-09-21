@@ -71,7 +71,7 @@ const problems = [
 
 export default function BusinessProblems() {
   return (
-    <section className="relative bg-black dark:bg-white text-white dark:text-black py-8 md:py-16 px-6 md:px-48 overflow-hidden">
+    <section className="relative dark:bg-black bg-white dark:text-white text-black py-8 md:py-16 px-6 md:px-48 overflow-hidden">
       <div className="absolute w-[600px] h-[600px] bg-green-20 rounded-full blur-[100px] opacity-20 z-0 bottom-0 left-0" />
 
       <MotionDiv

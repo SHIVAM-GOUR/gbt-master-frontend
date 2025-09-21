@@ -299,9 +299,9 @@ export default function InquiryForm() {
   }, [showSuccess]);
 
   return (
-    <div className="bg-white dark:bg-black dark:text-white text-black p-8 rounded-xl shadow-lg max-w-4xl mx-auto mb-16">
+    <div className="dark:bg-white bg-black text-white dark:text-black p-8 rounded-xl shadow-lg max-w-4xl mx-auto mb-16">
       <h3 className="text-2xl font-bold text-center">Inquiry Form</h3>
-      <p className="text-center text-gray-600 dark:text-white text-sm my-8">
+      <p className="text-center dark:text-gray-600 text-white text-sm my-8">
         Fill out the form below and we’ll get back to you within 24 hours
       </p>
       <form onSubmit={handleSubmit} className="space-y-8">
@@ -358,7 +358,7 @@ export default function InquiryForm() {
               name="industry"
               value={form.industry}
               onChange={handleChange}
-              className="border border-gray-400 bg-gray-200 dark:bg-gray-800 px-4 py-2.5 rounded w-full"
+              className="border border-gray-400 dark:bg-gray-200 bg-gray-800 px-4 py-2.5 rounded w-full"
               required
             >
               <option value="">Select an industry</option>

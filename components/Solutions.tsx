@@ -90,7 +90,7 @@ const solutions = [
 
 export default function Solutions() {
   return (
-    <section className="relative bg-black dark:bg-white text-white dark:text-black py-8 px-6 md:px-20 text-center">
+    <section className="relative dark:bg-black bg-white dark:text-white text-black py-8 px-6 md:px-20 text-center">
       <div className="absolute w-[500px] h-[600px] bg-green-20 rounded-full blur-[100px] opacity-20 z-0 bottom-0 left-0"></div>
 
       <div className="max-w-3xl mx-auto relative z-20">

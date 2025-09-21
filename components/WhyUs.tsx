@@ -120,7 +120,7 @@ const features: Feature[] = [
 
 export default function WhyUs() {
   return (
-    <section className="relative bg-black dark:bg-white text-white dark:text-black py-16 px-6 md:px-40 overflow-hidden">
+    <section className="relative dark:bg-black bg-white dark:text-white text-black py-16 px-6 md:px-40 overflow-hidden">
       {/* Animated background blob */}
       <motion.div
         className="absolute w-[600px] h-[600px] bg-green-20 rounded-full blur-[120px] opacity-20 z-0 bottom-0 left-0"
@@ -144,7 +144,7 @@ export default function WhyUs() {
         </div>
 
         <motion.p
-          className="text-gray-200 dark:text-gray-900 max-w-xl mx-auto mb-12"
+          className="dark:text-gray-200 text-gray-900 max-w-xl mx-auto mb-12"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
@@ -173,13 +173,13 @@ export default function WhyUs() {
               key={index}
               className="
     flex items-start 
-    bg-white dark:bg-black  
-    text-black dark:text-white 
+    dark:bg-white bg-black  
+    dark:text-black text-white 
     rounded-xl shadow-sm p-4 
 
     hover:shadow-xl 
-    hover:bg-gradient-to-r hover:from-green-50 hover:to-green-100 
-    dark:hover:from-green-300 dark:hover:to-green-500 
+    hover:bg-gradient-to-r dark:hover:from-green-50 dark:hover:to-green-100 
+    hover:from-green-300 hover:to-green-500 
 
     transform hover:-translate-y-1 hover:scale-105 
     transition duration-300
@@ -199,7 +199,7 @@ export default function WhyUs() {
               </motion.div>
               <div>
                 <h3 className="text-lg font-semibold">{title}</h3>
-                <p className="text-sm text-gray-600 dark:text-white mt-1">
+                <p className="text-sm dark:text-gray-600 text-white mt-1">
                   {description}
                 </p>
               </div>
